@@ -2,7 +2,7 @@
 	"user": "Thoutan1",
 	"repo": "NV-RP",
 	"tag": "0.0.1",
-	"entry": "gamemodes/roleplay.pawn",
+	"entry": "gamemodes/roleplay.pwn",
 	"output": "gamemodes/roleplay.amx",
 	"dependencies": [
 		"pawn-lang/samp-stdlib"
