@@ -2,5 +2,5 @@
 
 main()
 {
-    printf("NV:RP Ready.");
+    printf("NV:RP Started Initialize.");
 }
