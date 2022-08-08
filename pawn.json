@@ -1,11 +1,19 @@
 {
 	"user": "Thoutan1",
 	"repo": "NV-RP",
-	"tag": "0.0.1",
 	"entry": "gamemodes/roleplay.pwn",
 	"output": "gamemodes/roleplay.amx",
 	"dependencies": [
-		"pawn-lang/samp-stdlib"
+		"pawn-lang/samp-stdlib",
+		"IllidanS4/YSF",
+		"pawn-lang/YSI-Includes@5.x",
+		"samp-incognito/samp-streamer-plugin",
+		"pBlueG/SA-MP-MySQL",
+		"Southclaws/pawn-chrono",
+		"dakyskye/pawn-env",
+		"maddinat0r/sscanf",
+		"oscar-broman/strlib",
+		"Sreyas-Sreelal/samp-bcrypt:0.3.4"
 	],
 	"local": true,
 	"runtime": {
@@ -58,15 +66,19 @@
 			"-d3",
 			"-Z+"
 		],
+		"includes": [
+			"legacy_includes",
+			"gamemodes/modules/core",
+			"gamemodes/modules/database",
+			"gamemodes/modules/utils",
+			"gamemodes/modules/system/account"
+		],
 		"constants": {
 			"MAX_PLAYERS": "500",
 			"STRLIB_RETURN_SIZE": "1024"
 		},
-		"includes": [
-			"legacy_includes"
-		],
 		"compiler": {
-			"version": "3.10.8"
+			"version": "3.10.10"
 		}
 	}
 }

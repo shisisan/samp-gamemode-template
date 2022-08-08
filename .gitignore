@@ -46,5 +46,7 @@ samp.ban
 #
 # Common files
 #
+bcrypt_log.txt
+.env
 
 *.sublime-workspace
